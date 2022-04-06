@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = process.env.REACT_APP_API_URL.toString();
+const API_URL = "https://ticket-backend-butt.herokuapp.com";
 
 const instance = axios.create({
   baseURL: API_URL,
